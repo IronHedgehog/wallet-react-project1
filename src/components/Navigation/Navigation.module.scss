@@ -10,9 +10,9 @@
     flex-direction: column;
     align-items: flex-start;
   }
-    @include mq(desktop) {
-      margin-bottom: 30px;
-    }
+  @include mq(desktop) {
+    margin-bottom: 30px;
+  }
 }
 
 .icon__wrapper {
@@ -37,7 +37,7 @@
 .nav__link {
   @include mq(tablet) {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 }
